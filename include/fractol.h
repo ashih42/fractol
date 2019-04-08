@@ -63,31 +63,31 @@
 # define FRACTAL_TYPES	24
 
 # define FT00 t_dict fractal_table[FRACTAL_TYPES] = {					FT01
-# define FT01 {"-1", ". Mandelbrot Set", compute_mandelbrot},			FT02
-# define FT02 {"-2", ". Julia Set", compute_julia},						FT03
-# define FT03 {"-3", ". Burning Ship", compute_burning_ship},			FT04
-# define FT04 {"-4", ". Burning Ship - Julia", compute_burning_ship_julia}, FT05
-# define FT05 {"-5", ". Tricorn", compute_tricorn},						FT06
-# define FT06 {"-6", ". Tricorn - Julia", compute_tricorn_julia},		FT07
-# define FT07 {"-7", ". Mandelbrot ^3", compute_brot_3},				FT08
-# define FT08 {"-8", ". Julia ^3", compute_julia_3},					FT09
-# define FT09 {"-9", ". Mandelbrot ^4", compute_brot_4},				FT10
-# define FT10 {"-10", ". Julia ^4", compute_julia_4},					FT11
-# define FT11 {"-11", ". Mandelbrot ^8", compute_brot_8},				FT12
-# define FT12 {"-12", ". Julia ^8", compute_julia_8},					FT13
-# define FT13 {"-13", ". Mandel Drop", compute_mandeldrop},				FT14
-# define FT14 {"-14", ". Mandel Drop - Julia", compute_mandeldrop_julia}, FT15
-# define FT15 {"-15", ". Triplet Mitosis", compute_tricell},			FT16
-# define FT16 {"-16", ". Triplet Mitosis - Julia", compute_tricell_julia}, FT17
-# define FT17 {"-17", ". Hyperbolic Triangulum", compute_triangulum},	FT18
-# define FT18 {"-18", ". Hyperbolic Triangulum - Julia", 				FT18_2
+# define FT01 {"1", ". Mandelbrot Set", compute_mandelbrot},			FT02
+# define FT02 {"2", ". Julia Set", compute_julia},						FT03
+# define FT03 {"3", ". Burning Ship", compute_burning_ship},			FT04
+# define FT04 {"4", ". Burning Ship - Julia", compute_burning_ship_julia}, FT05
+# define FT05 {"5", ". Tricorn", compute_tricorn},						FT06
+# define FT06 {"6", ". Tricorn - Julia", compute_tricorn_julia},		FT07
+# define FT07 {"7", ". Mandelbrot ^3", compute_brot_3},					FT08
+# define FT08 {"8", ". Julia ^3", compute_julia_3},						FT09
+# define FT09 {"9", ". Mandelbrot ^4", compute_brot_4},					FT10
+# define FT10 {"10", ". Julia ^4", compute_julia_4},					FT11
+# define FT11 {"11", ". Mandelbrot ^8", compute_brot_8},				FT12
+# define FT12 {"12", ". Julia ^8", compute_julia_8},					FT13
+# define FT13 {"13", ". Mandel Drop", compute_mandeldrop},				FT14
+# define FT14 {"14", ". Mandel Drop - Julia", compute_mandeldrop_julia}, FT15
+# define FT15 {"15", ". Triplet Mitosis", compute_tricell},				FT16
+# define FT16 {"16", ". Triplet Mitosis - Julia", compute_tricell_julia}, FT17
+# define FT17 {"17", ". Hyperbolic Triangulum", compute_triangulum},	FT18
+# define FT18 {"18", ". Hyperbolic Triangulum - Julia", 				FT18_2
 # define FT18_2 compute_triangulum_julia}, 								FT19
-# define FT19 {"-19", ". Spiral Rose", compute_spiral},					FT20
-# define FT20 {"-20", ". Spiral Rose - Julia", compute_spiral_julia},	FT21
-# define FT21 {"-21", ". Elysian Veil", compute_veil},					FT22
-# define FT22 {"-22", ". Elysian - Julia", compute_veil_julia},			FT23
-# define FT23 {"-23", ". Void Star", compute_voidstar},					FT24
-# define FT24 {"-24", ". Void Star - Julia", compute_voidstar_julia}};	FT_END
+# define FT19 {"19", ". Spiral Rose", compute_spiral},					FT20
+# define FT20 {"20", ". Spiral Rose - Julia", compute_spiral_julia},	FT21
+# define FT21 {"21", ". Elysian Veil", compute_veil},					FT22
+# define FT22 {"22", ". Elysian - Julia", compute_veil_julia},			FT23
+# define FT23 {"23", ". Void Star", compute_voidstar},					FT24
+# define FT24 {"24", ". Void Star - Julia", compute_voidstar_julia}};	FT_END
 # define FT_END m.fractal_table = fractal_table;
 
 # define MAX_SCHEMES	6

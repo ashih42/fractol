@@ -73,7 +73,7 @@ int				print_usage(t_master *m)
 {
 	int			i;
 
-	ft_printf("{bold}usage: fractol [-n]{reset}\n");
+	ft_printf("{bold}usage: fractol [n]{reset}\n");
 	i = -1;
 	while (++i < FRACTAL_TYPES)
 		ft_printf("  n = %2d\t\t%s\n", i + 1, m->fractal_table[i].name + 2);
