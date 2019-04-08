@@ -1,5 +1,5 @@
 # fractol
-Render the [Julia Set](https://en.wikipedia.org/wiki/Julia_set), [Mandelbrot Set](https://en.wikipedia.org/wiki/Mandelbrot_set), and many fractals in C using [minilibx](https://github.com/qst0/ft_libgfx). (42 Silicon Valley)
+Render the [Julia Set](https://en.wikipedia.org/wiki/Julia_set), [Mandelbrot Set](https://en.wikipedia.org/wiki/Mandelbrot_set), and more fractals in C using [minilibx](https://github.com/qst0/ft_libgfx). (42 Silicon Valley)
 
 <p float="left">
   <img src="https://github.com/ashih42/fractol/blob/master/Screenshots/julia.png" width="280" />
